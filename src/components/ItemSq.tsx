@@ -27,4 +27,6 @@ const ItemSq:FC<SquareProps> = ({keyItem, valueItem, handleClick, last,winKeys})
     );
 };
 
+export {};
+
 export default ItemSq;
