@@ -1,4 +1,4 @@
-import React, {FC, useEffect} from 'react';
+import {FC, Component} from 'react';
 import {XMarkIcon} from "@heroicons/react/20/solid";
 import {HeartIcon} from "@heroicons/react/24/outline";
 
@@ -26,7 +26,5 @@ const ItemSq:FC<SquareProps> = ({keyItem, valueItem, handleClick, last,winKeys})
         </div>
     );
 };
-
-export {};
 
 export default ItemSq;
